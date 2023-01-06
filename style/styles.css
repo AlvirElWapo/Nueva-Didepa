@@ -1,4 +1,11 @@
-h1
+.navbar_contenedor
 {
-    color: blue;
+    height: 10vh;
+    width: 100%;
+    background-color: #60866D;
+}
+
+.navbar_item
+{
+    background-color: #60866D;
 }
