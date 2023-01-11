@@ -1,0 +1,7 @@
+git add **archivos** para agregar los archivos que modificaste
+git commit **archivos** primer filtro para realizar la subida al servidor
+git push <--- aplicar cambios
+
+
+git checkout -b **nombre de la rama** <--- crea una nueva rama de git
+git merge **nombre de la rama** une una rama a la que esta activa
