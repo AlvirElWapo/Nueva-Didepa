@@ -9,9 +9,8 @@
 </head>
 <body>
 
-
-<?php include 'Navbar_Alvir.php';?>
-<?php include 'Logo_UAEM.php';?>
+<?php include 'Media_Links.php';?>
+<?php include 'Navbar.php';?>
 
 
 </body>
