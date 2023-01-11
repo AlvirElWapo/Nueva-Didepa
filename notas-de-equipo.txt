@@ -4,4 +4,5 @@ git push <--- aplicar cambios
 
 
 git checkout -b **nombre de la rama** <--- crea una nueva rama de git
+git checkout **nombre de la rama** <-- cambia a la rama de git
 git merge **nombre de la rama** une una rama a la que esta activa
