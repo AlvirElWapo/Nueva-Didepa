@@ -1,5 +1,18 @@
 <div class="navbar_contenedor">
+    <img src="../style/Images/facebook_blanco.png" class="navbar_item">
+    <img src="../style/Images/Twitter.png" class="navbar_item">
+    <img src="../style/Images/youtube_icon.png" class="navbar_item">
+    <img src="../style/Images/Instagram_icon.png" class="navbar_item">
+    <img src="../style/Images/Tiktok_icon.png" class="navbar_item">
 
-<h1>HOLA HOLA ESTA ES MI NAVBAR</h1>
+    <div class="navbar_item" style="object-fit:contain;width:fit-content;">
+        <div style="text-align: center;"><img src="../style/Images/Email_icon.png" style="height: 3vh;"></div>
+        <span style="color: white;">rectoria@uaemex.mx</span>
+    </div>
 
+    <div class="navbar_item" style="object-fit:contain;width:fit-content;">
+        <div  style="text-align: center;"><img src="../style/Images/Buzon_icon.png" style="height: 3vh;"></div>
+        <span style="color: white;">Buzón de Atención Universitaria</span>
+    </div>
+    
 </div>
