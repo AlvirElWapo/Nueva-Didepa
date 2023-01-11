@@ -27,11 +27,6 @@
     height: 7vh;
     object-fit: contain;
     padding: 1%;
-    background-color: aqua;
-}
-.special_navbar_item:hover
-{
-    background-color: blue;
 }
 
 .special_navbar_item:hover::after
@@ -40,12 +35,13 @@
     color: white;
 }
 
-.special_navbar_item image
+.special_navbar_item img
 {
     height: 6vh;
 }
 
-.special_navbar_item image:hover
+.special_navbar_item:hover img
 {
     height: 3vh;
 }
+
