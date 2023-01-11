@@ -22,5 +22,30 @@
     padding: 1%;
 }
 
+.special_navbar_item
+{
+    height: 7vh;
+    object-fit: contain;
+    padding: 1%;
+    background-color: aqua;
+}
+.special_navbar_item:hover
+{
+    background-color: blue;
+}
 
-/*<<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>><><><><><><><><>*/
+.special_navbar_item:hover::after
+{
+    content:attr(data-legend);
+    color: white;
+}
+
+.special_navbar_item image
+{
+    height: 6vh;
+}
+
+.special_navbar_item image:hover
+{
+    height: 3vh;
+}
