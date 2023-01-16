@@ -12,6 +12,5 @@
 <?php include 'Media_Links.php';?>
 <?php include 'Navbar.php';?>
 
-
 </body>
 </html>
