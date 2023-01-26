@@ -1,3 +1,10 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+    display: block;
+}
+
 /*
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 <>
@@ -11,7 +18,7 @@
     height: 10vh;
     width: 100%;
     background-color: #60866D;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -59,27 +66,74 @@ a:active { text-decoration: none; }
 <>         Contenedor del Logo UAEMEX e Imágen 
 <>
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>*/
+.boton_display
+{
+    height: 4vh;
+    width: 7em;
+    background: rgb(224, 224, 224);
+	border: none;
+	outline: inherit; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: right;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.boton_display img
+{
+    height: 3vh;
+}
+.rotate
+{
+    transform: rotate(90deg);
+
+}
+
+
 .contenedor_logo
 {
     display: flex;
-    position: fixed;
+    background-color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    position: sticky;
+    top: -3vh;
     align-items: center;
     justify-content: center;
     height: 14vh;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: aqua;
+    display: none;
+    z-index: 0;
 }
+
 
 .contenedor_logo_item
 {
-    height: 7vh;
+    height: 10vh;
     padding: 1%;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s;
 }
 
 .contenedor_logo_item img
 {
     height: 6vh;
 }
+
+.contenedor_logo_item:hover
+{
+    background-color: #60866D;
+    color: white;
+}
+
+.contenedor_logo_item:hover img
+{
+    transition: all 0.54s;
+    filter: invert(1);
+}
+
 
 /*<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>*/

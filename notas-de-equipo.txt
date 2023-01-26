@@ -1,15 +1,14 @@
-git add **archivos** para agregar los archivos que modificaste
-git commit **archivos** primer filtro para realizar la subida al servidor
-git push <--- aplicar cambios
+git pull <---- ACTUALIZA TU REPOSITORIO CON LOS CONTENIDOS MAS RECIENTES DE LA RAMA MAIN
 
+git add **archivos** <---------- para agregar los archivos que modificaste
+git commit **archivos** <-------- Aplicar cambios antes de subirlos al servidor
+git push <--- aplicar cambios y subirlos al servidor
 
-git checkout -b **nombre de la rama** <--- crea una nueva rama de git
-git checkout **nombre de la rama** <-- cambia a la rama de git
-git merge **nombre de la rama** une una rama a la que esta activa
+git checkout -b **nombre de la rama** <--- crea una nueva rama de git y la hace la actual.
+git branch **nombre** <------ crea una nueva rama de git.
 
+git checkout **nombre de la rama** <-- cambia a la rama de git.
+git merge **nombre de la rama** une una rama a la que esta activa.
 
-La caca de la mochila de Mai uwu
-
-Hola Andrés eres mi mejor amigo aunque me maltrates bien machín...
 
 
