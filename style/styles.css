@@ -68,12 +68,18 @@ a:active { text-decoration: none; }
     height: 14vh;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: aqua;
 }
 
 .contenedor_logo_item
 {
-    object-fit: contain;
-    padding-left: 5%;
-    height: inherit;
+    height: 7vh;
+    padding: 1%;
 }
+
+.contenedor_logo_item img
+{
+    height: 6vh;
+}
+
 /*<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>*/
